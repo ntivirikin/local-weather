@@ -1,0 +1,85 @@
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Cabin', sans-serif;
+	margin-top: 30px;
+}
+
+img {
+	padding-top: 30px;
+	height: 82.5px;
+	width: 52.5px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 15px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-family: 'Cabin', sans-serif;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	padding-top: 30px;
+	font-family: 'Cabin', sans-serif;
+}
+
+.infoLabel {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Cabin', sans-serif;
+}
+
+.infoValue {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Cabin', sans-serif;
+}
+
+.moveImage {
+	position: relative;
+	top: -28px;
+}
+
+#currentTemp {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Cabin', sans-serif;
+}
+
+#infoBox {
+	background-color: white !important;
+	border-radius: 15px;
+}
+
+#buttonbox {
+	position: fixed;
+	padding-bottom: 15px;
+	bottom: 0px;
+}
+
+#backBoxOne {
+	background-color: white;
+	padding: 10px;
+}
+
+#backBoxTwo {
+	background-color: white;
+	padding: 10px;
+}
+
+#backBoxThree {
+	background-color: white;
+	padding: 10px;
+}
+
+.btn, .btn-sm {
+	background-color: white !important;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<header>
+	<meta charset="utf-8">
+	<title>Weather</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/styles.css">
+</header>
+
+<body>
+
+<h1>Weather</h1>
+
+<h2></h2>
+
+<div class="container">
+	<div class="row">
+		<div class="container col-lg-3">
+		</div>
+		<div id="backBoxOne"class="container col-lg-2">
+			<div class="row">
+				<p class="infoLabel">Current Temperature:</p>
+			</div>
+			<div class="row">
+				<p id="currentTemp"></p>
+				<img class="moveImage center-block" id="weatherIcon" src="#">
+			</div>
+		</div>
+
+		<div id="backBoxTwo" class="container col-lg-2">
+			<div class="row">
+				<p class="infoLabel">Maximum Temperature:</p><p class="infoValue" id="maxTempBox"></p>
+			</div>
+			<div class="row">
+				<p class="infoLabel">Minimum Temperature:</p><p class="infoValue" id="minTempBox"></p><br>
+			</div>
+		</div>
+		<div id="backBoxThree" class="container col-lg-2">
+			<div class="row">
+				<p class="infoLabel">Pressure:</p><p class="infoValue" id="pressureBox"></p>	
+			</div>
+			<div class="row">
+				<p class="infoLabel">Humidity:</p><p class="infoValue" id="humidBox"></p><br>
+			</div>
+		</div>
+		<div class="container col-lg-3">
+		</div>
+	</div>
+</div>
+
+<footer>This website was made by Nazariy Tivirikin</footer>
+
+<div id="buttonbox" class="container">
+	<button id="fahrButt" type="button" class="btn btn-sm">&deg F</button>
+	<button id="celsButt" type="button" class="btn btn-sm">&deg C</button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
